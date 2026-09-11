@@ -11,7 +11,7 @@
 ;; exists so ClojureScript-specific coercion issues get the same
 ;; scrutiny, not less.
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [mil1553.core-test]))
