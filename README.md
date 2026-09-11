@@ -149,7 +149,7 @@ value), never just "some error came back".
 
 ```sh
 clojure -M:test                                                        # JVM
-nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs   # ClojureScript
+nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk   # ClojureScript
 ```
 
 24 tests, 86,355 assertions, on both runtimes. Exhaustive sweeps: all 32
