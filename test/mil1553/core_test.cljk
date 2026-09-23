@@ -6,7 +6,7 @@
   paid SAE/DoD text itself — see the namespace docstrings for exactly
   what confidence each claim carries, ranked worst-to-best in the
   README's Provenance section."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [mil1553.word :as w]
             [mil1553.command :as cmd]
             [mil1553.status :as st]
